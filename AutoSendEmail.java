@@ -33,7 +33,7 @@ public class AutoSendEmail {
         finance.setEmail("K");
         finance.setDep("B");
         finance.setSubject("关于2019冬季毕业学生的学位论文评阅劳务费");
-        finance.setMail_cc(new String[]{"sufx@qibebt.ac.cn"});
+        finance.setMail_cc(new String[]{"xxx@qibebt.ac.cn"});
         finance.setPersonName("青能所人事教育处");
         finance.setMailBody(AutoSendEmail.class.getClassLoader().getResource("mail_body_single.md").getPath());
         return finance;
@@ -43,8 +43,8 @@ public class AutoSendEmail {
         finance.setEmailFile("/backup1t/project/excel_depSplit_email/data/lilb/研究组发送切分邮件清单20191206.xlsx");
         finance.setEmail("F");
         finance.setDep("C");
-        finance.setSubject("2019年管理费计提工作-请周一结束前返回高茜");
-        finance.setMail_cc(new String[]{"lilb@qibebt.ac.cn"});
+        finance.setSubject("2019年管理费计提工作-请周一结束前返回");
+        finance.setMail_cc(new String[]{"ccc@qibebt.ac.cn"});
         finance.setPersonName("青能所财务处");
         finance.setMailBody(AutoSendEmail.class.getClassLoader().getResource("mail_body_finance.md").getPath());
         return finance;
@@ -55,7 +55,7 @@ public class AutoSendEmail {
         tec.setEmailFile("/backup1t/project/excel_depSplit_email/data/gaoqian/email.xlsx");
         tec.setEmail("F");
         tec.setDep("C");
-        tec.setMail_cc( new String[]{"gaoqian@qibebt.ac.cn"});
+        tec.setMail_cc( new String[]{"XXX@qibebt.ac.cn"});
         tec.setSubject("2019年管理费补充（科研经费到款时间为2018年12月和2019年12月部分）计提工作-请周二结束前返回高茜");
         tec.setPersonName("青能所科技处");
         tec.setMailBody(AutoSendEmail.class.getClassLoader().getResource("mail_body.md").getPath());
